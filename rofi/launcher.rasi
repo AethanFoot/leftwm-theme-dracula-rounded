@@ -48,6 +48,7 @@ configuration {
 #inputbar {
 	children: 						[ entry ];
     padding:                        15px;
+	background-color: 				@transparent;
 }
 
 #listview {
