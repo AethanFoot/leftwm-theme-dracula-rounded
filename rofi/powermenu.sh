@@ -33,6 +33,6 @@ case $chosen in
 		systemctl suspend
         ;;
     $logout)
-        $HOME/.config/leftwm/themes/current/down
+        $HOME/.config/leftwm/themes/current/down && pkill leftwm
         ;;
 esac

@@ -20,7 +20,7 @@ launcher    : Rofi
 ## Dependencies
 
 - [leftwm](https://github.com/leftwm/leftwm)
-- [picom](https://github.com/ibhagwan/picom)
+- [ibhagwan picom](https://github.com/ibhagwan/picom)
 - [polybar](https://github.com/polybar/polybar)
 - [saucecodepro nerd font](https://github.com/ryanoasis/nerd-fonts)
 - [rofi](https://github.com/davatorium/rofi)
@@ -28,6 +28,13 @@ launcher    : Rofi
 ## Installation
 
 1. Install all required dependencies
+
+2. Clone the repository
+
+```BASH
+git clone https://github.com/AethanFoot/leftwm-theme-dracula-rounded.git
+```
+
 2. Make a copy of this project in your themes folder
 
 ```BASH
