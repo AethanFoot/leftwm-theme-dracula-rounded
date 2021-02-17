@@ -35,24 +35,24 @@ launcher    : Rofi
 git clone https://github.com/AethanFoot/leftwm-theme-dracula-rounded.git
 ```
 
-2. Make a copy of this project in your themes folder
+3. Make a copy of this project in your themes folder
 
 ```BASH
 cp -r ./leftwm-theme-dracula-rounded ~/.config/leftwm/themes
 ```
 
-3. Remove the symlink to your current theme if set
+4. Remove the symlink to your current theme if set
 
 ```BASH
 rm ~/.config/leftwm/themes/current
 ```
-4. Set this as your current theme
+5. Set this as your current theme
 
 ```BASH
 ln -s ~/.config/leftwm/themes/leftwm-theme-dracula-rounded ~/.config/leftwm/themes/current
 ```
 
-5. Restart your window manager
+6. Restart your window manager
 
 ```Default shortcut
 $MOD + Shift + r
