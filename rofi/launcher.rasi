@@ -41,7 +41,7 @@ configuration {
 #entry {
     background-color:               @transparent;
     text-color:                     @foreground;
-    font:                           "SauceCodePro NF Semibold 13";
+    font:                           "SauceCodePro Nerd Font Semibold 13";
     expand:                         true;
 }
 
@@ -67,7 +67,7 @@ configuration {
     text-color:                     @foreground;
     orientation:                    vertical;
     border-radius:                  8;
-    padding:                        20px 15px 20px 15px;
+    padding:                        20px 15px;
 }
 
 #element-icon {
@@ -76,7 +76,9 @@ configuration {
 }
 
 #element-text {
-    expand:                         true;
+    expand:                         false;
+    width:                          64px;
+    horizontal-align:               0.6;
     highlight:                      None #8be9fd; 
 }
 
