@@ -5,7 +5,7 @@
 ```
 DE          : Arch
 WM          : Leftwm
-terminal    : Kitty
+terminal    : Alacritty
 colorscheme : Dracula
 bar         : Polybar
 launcher    : Rofi
