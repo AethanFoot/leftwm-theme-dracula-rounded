@@ -80,15 +80,20 @@ configuration {
     text-color:                     @foreground;
     border-radius:                  8;
     padding:                        10px;
-}
-
-#element-icon {
-    size:                           0.9em;
-    border:                         0px;
+    children: [element-icon, element-text];
 }
 
 #element-text {
-    highlight:                      None #8be9fd; 
+    font: "SauceCodePro NF Medium 11";
+    background-color: @transparent;
+    highlight:                      None #8be9fd;
+    text-color:       inherit;
+}
+
+#element-icon {
+    size: 0.9em;
+    background-color: @transparent;
+    text-color:       inherit;
 }
 
 #element.selected {

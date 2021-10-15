@@ -33,6 +33,6 @@ case $chosen in
 		systemctl suspend
         ;;
     $logout)
-        $HOME/.config/leftwm/themes/current/down && pkill leftwm
+        loginctl kill-session $XDG_SESSION_ID
         ;;
 esac
