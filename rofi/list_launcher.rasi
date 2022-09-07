@@ -23,10 +23,10 @@ configuration {
 }
 
 #window {
-    background-color:               @background;
+    background-color:               @background-color;
     text-color:                     @foreground;
 	border:							0;
-	border-color:					@background;
+	border-color:					@background-color;
     border-radius:                  8;
 	width:							300px;
     location:                       northwest;

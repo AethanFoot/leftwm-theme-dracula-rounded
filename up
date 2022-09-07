@@ -10,7 +10,7 @@ fi
 ln -s "$SCRIPTPATH"/down /tmp/leftwm-theme-down
 
 # Boot picom or compton if it exists
-picom --experimental-backends > /dev/null &
+picom &
 
 # Set the theme.toml config
 leftwm command "LoadTheme $SCRIPTPATH/theme.toml"
